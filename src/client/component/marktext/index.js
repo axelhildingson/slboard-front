@@ -17,14 +17,14 @@ export default class marktext extends Component {
         const buses = [];
         const metros = [];
         if(this.props.transports.Buses[0]) {
-            buses.push(<text> Buss: {this.props.transports.Buses[0].LineNumber}, Destination: {this.props.transports.Buses[0].Destination}, Tid: {this.props.transports.Buses[0].DisplayTime}</text>)
+            buses.push(<text> Buss: {this.props.transports.Buses[0].LineNumber}, Destination: {this.props.transports.Buses[0].Destination}, Tid: {this.props.transports.Buses[0].DisplayTime}</text>);
             buses.push(<br/>);
-            buses.push(<text> Buss: {this.props.transports.Buses[1].LineNumber}, Destination: {this.props.transports.Buses[1].Destination}, Tid: {this.props.transports.Buses[1].DisplayTime}</text>)  
+            buses.push(<text> Buss: {this.props.transports.Buses[1].LineNumber}, Destination: {this.props.transports.Buses[1].Destination}, Tid: {this.props.transports.Buses[1].DisplayTime}</text>);
         }
         if(this.props.transports.Metros[0]) {
-            metros.push(<text> Tunnelbana: {this.props.transports.Metros[0].LineNumber}, Destination: {this.props.transports.Metros[0].Destination}, Tid: {this.props.transports.Metros[0].DisplayTime}</text>)
+            metros.push(<text> Tunnelbana: {this.props.transports.Metros[0].LineNumber}, Destination: {this.props.transports.Metros[0].Destination}, Tid: {this.props.transports.Metros[0].DisplayTime}</text>);
             metros.push(<br/>);
-            metros.push(<text> Tunnelbana: {this.props.transports.Metros[1].LineNumber}, Destination: {this.props.transports.Metros[1].Destination}, Tid: {this.props.transports.Metros[1].DisplayTime}</text>)  
+            metros.push(<text> Tunnelbana: {this.props.transports.Metros[1].LineNumber}, Destination: {this.props.transports.Metros[1].Destination}, Tid: {this.props.transports.Metros[1].DisplayTime}</text>);
         }
 
         const transport = [];

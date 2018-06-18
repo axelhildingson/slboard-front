@@ -1,4 +1,4 @@
-import { app } from 'express';
+const express = require('express'); 
 
 const realtimedeparturesV4Key = process.env.REALTIMEDEPARTURESV4KEY || '';
 const nearbystopsKey = process.env.NEARBYSTOPKEY || '';
